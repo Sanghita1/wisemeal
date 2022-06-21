@@ -9,6 +9,7 @@ const cookieParser = require("cookie-parser");
 const auth = require("./src/middleware/auth");
 const emailjs = require("emailjs-com");
 
+console.log("Hello Sanghita");
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
